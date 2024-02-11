@@ -16,7 +16,11 @@ const babelOptions = {
 };
 
 module.exports = {
-  extends: ['plugin:@next/next/recommended'],
+  extends: [
+    'plugin:@next/next/recommended',
+    'plugin:@next/next/core-web-vitals',
+    require.resolve('./_base'),
+  ],
   overrides: [
     {
       files: JAVASCRIPT_FILES,
