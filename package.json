@@ -60,7 +60,9 @@
     "eslint": "^8.56.0",
     "lint-staged": "^14.0.1",
     "prettier": "^3.0.2",
-    "typescript": "^5.2.2"
+    "typescript": "^5.2.2",
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0"
   },
   "peerDependencies": {
     "@next/eslint-plugin-next": ">=12.3.0 <15",
