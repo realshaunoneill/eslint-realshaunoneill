@@ -1,6 +1,6 @@
 {
   "name": "@realshaunoneill/style-guide",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Style Guide",
   "keywords": [
     "style"
@@ -22,7 +22,8 @@
   "main": "index.js",
   "files": [
     "eslint",
-    "prettier"
+    "prettier",
+    "typescript"
   ],
   "scripts": {
     "eslint-check": "eslint --max-warnings=0 .",
