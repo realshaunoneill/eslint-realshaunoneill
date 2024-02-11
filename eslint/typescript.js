@@ -20,7 +20,9 @@ module.exports = {
         require.resolve('./rules/typescript/import'),
         require.resolve('./rules/typescript/strict'),
         require.resolve('./rules/typescript/tsdoc'),
-        require.resolve('./_base'),
+
+        require.resolve('./rules/style.js'),
+        require.resolve('./rules/variables.js'),
       ],
       files: TYPESCRIPT_FILES,
     },
