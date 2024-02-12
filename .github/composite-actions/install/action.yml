@@ -1,0 +1,16 @@
+name: 'Install'
+description: 'Sets up Node, and installs dependencies'
+
+runs:
+  using: composite
+  steps:
+    - name: Set up Node
+      uses: actions/setup-node@v3
+      with:
+        node-version: 18
+        cache: yarn
+
+    - name: Install dependencies
+      shell: bash
+      run: |
+        yarn install --frozen-lockfile
