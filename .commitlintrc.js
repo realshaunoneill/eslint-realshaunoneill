@@ -35,6 +35,8 @@ module.exports = {
       [
         // Dependency-related changes
         'deps',
+        // Actions-related changes
+        'actions',
         // ESLint-related changes
         'eslint',
         // Prettier-related changes
