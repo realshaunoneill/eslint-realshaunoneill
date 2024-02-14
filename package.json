@@ -30,7 +30,8 @@
     "eslint-fix": "eslint --fix .",
     "lint": "npm run eslint-check && npm run prettier-check",
     "prettier-check": "prettier --check .",
-    "prettier-fix": "prettier --write ."
+    "prettier-fix": "prettier --write .",
+    "semantic-release": "semantic-release"
   },
   "lint-staged": {
     "*": "prettier -w --ignore-unknown"
