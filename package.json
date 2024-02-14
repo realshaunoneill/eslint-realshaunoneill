@@ -63,7 +63,9 @@
     "eslint": "^8.56.0",
     "lint-staged": "^14.0.1",
     "prettier": "^3.0.2",
-    "typescript": "^5.2.2"
+    "typescript": "^5.2.2",
+    "semantic-release": "^23.0.2",
+    "@semantic-release/git": "^10.0.1"
   },
   "peerDependencies": {
     "@next/eslint-plugin-next": ">=12.3.0 <15",
