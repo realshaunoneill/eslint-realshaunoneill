@@ -1,5 +1,12 @@
 module.exports = {
-  branches: ['master'],
+  branches: [
+    'master',
+    {
+      name: 'canary',
+      channel: 'canary',
+      prerelease: true,
+    },
+  ],
   plugins: [
     '@semantic-release/commit-analyzer',
     '@semantic-release/release-notes-generator',
