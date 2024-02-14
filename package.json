@@ -1,6 +1,6 @@
 {
   "name": "@realshaunoneill/style-guide",
-  "version": "1.0.0",
+  "version": "1.1.0-canary.1",
   "description": "Style Guide",
   "keywords": [
     "style"
@@ -26,10 +26,10 @@
     "typescript"
   ],
   "scripts": {
-    "prepare": "husky install",
     "eslint-check": "eslint --max-warnings=0 .",
     "lint": "npm run eslint-check && npm run prettier-check",
     "lint:fix": "eslint --fix .",
+    "prepare": "husky install",
     "prettier-check": "prettier --check .",
     "prettier-fix": "prettier --write .",
     "semantic-release": "semantic-release"
