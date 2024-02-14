@@ -2,7 +2,7 @@ module.exports = {
   extends: ['@commitlint/config-conventional'],
   rules: {
     'type-enum': [
-      1,
+      2,
       'always',
       [
         // Changes that affect the build system or dependency-only changes
